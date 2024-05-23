@@ -14,22 +14,34 @@ Estas soluciones pueden tener spoilers :warning:
 
 | Reto | Solucion | Enunciado |
 |-----------|-------------|-----------|
-| [Challenge 1](https://2022.adventjs.dev/es/challenges/2022/1) | [Enlace al repositorio](https://github.com/tuusuario/ejercicio1) | [Enlace al enunciado](https://enunciados.com/ejercicio1) |
-| [Ejercicio 2](#ejercicio-2)                                   | [Enlace al repositorio](https://github.com/tuusuario/ejercicio2) | [Enlace al enunciado](https://enunciados.com/ejercicio2) |
-| [Ejercicio 3](#ejercicio-3)                                   | [Enlace al repositorio](https://github.com/tuusuario/ejercicio3) | [Enlace al enunciado](https://enunciados.com/ejercicio3) |
-
-
+| [Challenge 1](https://2022.adventjs.dev/es/challenges/2022/1) | [Enlace al repositorio](https://github.com/tuusuario/ejercicio1) | [Enlace al enunciado](#ejercicio-1) |
 
 
 
 ## Ejercicio 1 <a name="ejercicio-1"></a>
 
-Aquí va el enunciado del Ejercicio 1 y un ejemplo de cómo resolverlo.
+# Este año los elfos han comprado una máquina que envuelve regalos. Pero… ¡no viene programada! Necesitamos crear un algoritmo que le ayude en la tarea.
 
-## Ejercicio 2 <a name="ejercicio-2"></a>
+A la máquina se le pasa un array con los regalos. Cada regalo es un string. Necesitamos que la máquina envuelva cada regalo en papel de regalo y lo coloque en un array de regalos envueltos.
 
-Aquí va el enunciado del Ejercicio 2 y un ejemplo de cómo resolverlo.
+El papel de regalo es el símbolo * y para envolver un regalo se coloca el símbolo * de forma que rodee totalmente al string por todos los lados. Por ejemplo:
 
-## Ejercicio 3 <a name="ejercicio-3"></a>
+\`\`\`javascript
+const gifts = ['cat', 'game', 'socks']
+const wrapped = wrapping(gifts)
 
-Aquí va el enunciado del Ejercicio 3 y un ejemplo de cómo resolverlo.
+console.log(wrapped)
+/* [
+  "*****\n*cat*\n*****",
+  "******\n*game*\n******",
+  "*******\n*socks*\n*******"
+] */
+\`\`\`
+
+<font size="+1" color="yellow">Nota:</font> El carácter \n representa un salto de línea.
+
+<font size="+1" color="yellow">¡Ojo!</font> Asegúrate que pones el número correcto de * para envolver completamente el string. Pero no demasiados. Sólo los necesarios para cubrir el string.
+
+<font size="+1" color="yellow">Ah, y no modifiques (mutes) el array original.</font>
+
+
