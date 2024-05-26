@@ -77,8 +77,7 @@ Aunque el 31 de diciembre sea festivo, las horas extra se harán el mismo año y
 El método Date.getDay() te devuelve el día de la semana de una fecha. El 0 es domingo, el 1 es lunes, etc.
 
 
-##Ejercicio 3 (Cuantas cajas de regalos puede llevar papa noel?) <a name="ejercicio-3"></a>
-
+## Ejercicio 3 (Cuantas cajas de regalos puede llevar papa noel?) <a name="ejercicio-3"></a>
 
 Tienes una caja de regalos de Navidad que Santa Claus quiere entregar a los niños. Cada regalo está representado por una cadena. Santa Claus tiene un trineo que puede llevar un peso limitado, y cada regalo dentro de la caja tiene un peso que es igual al número de letras en el nombre del regalo.
 
@@ -103,7 +102,8 @@ Las cajas de regalos no se pueden dividir.
 Los nombres de los regalos y los renos siempre serán mayores que 0.
 
 
-##Ejercicio 4 (Una caja dentro de otra caja y otra) <a name='ejercicio-4'></a>
+## Ejercicio 4 (Una caja dentro de otra caja y otra) <a name="ejercicio-4"></a>
+
 
 Santa Claus necesita hacer una revisión de sus cajas de regalos para asegurarse de que puede empaquetarlas todas en su trineo. Cuenta con una serie de cajas de diferentes tamaños, que se caracterizan por su longitud, anchura y altura.
 
