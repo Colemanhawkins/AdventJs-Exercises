@@ -1,7 +1,7 @@
 function distributeGifts(packOfGifts: string[],reindeers: string[]): number {
     const giftsWeidht = packOfGifts.join('').length
     const reindeersCapacityWeidth = reindeers.join('').length * 2
-    giftsWeidht < reindeersCapacityWeidth ?
+   return giftsWeidht < reindeersCapacityWeidth ?
     Math.floor(reindeersCapacityWeidth / giftsWeidht)
     : 0
 }
